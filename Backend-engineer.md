@@ -1,4 +1,5 @@
-# Senior API engineer
+# Backend Developer 
+### Your Codes must be written in PHP . You can use any framework(Yii2, CodeIgniter, Laravel, Sympony or Zend)
 
 ## 1. Events to the rescue!
 
@@ -54,38 +55,23 @@ interface EventDispatcher
 
 Have fun!
 
-## 2. Race-conditions WTF
+## 1. Event Management API (Ticket Buying)
 
-You are working for a company that provides a collaborative writing platform.
+Your Boss said you need to Extend a website to sell tickets online. Create a  ticket model and an api to  add, edit, update ticket and also ticket type.YOur api should be able to :
+* Get  all Ticket
+* Add ticket
+* Update Ticket Type
+* Create ticket type
+* Edit Ticket
 
-People can sign up and start writing a book with your service, and you are responsible for the APIs that the frontend uses.
-A typical author will login on the website, open his book, download it in `.ODF` format and re-upload it after he wrote some more things.
-
-A problem raises once your PM comes to you and tells you that the company received a few complaints.
-Upon investigating some more, you find out that this problem only happens between authors working on the same book.
-
-The situation, somehow, looks like this:
-
-* John, Linda and Frank are writing "Memories of a dead soldier"
-* Alex and Mark are writing "Data mining in PHP: how to hurt yourself"
-* John complained that Frank overwrote his latest changes on their book
-* Mark complained that Alex overwrote his latest changes on their book
-
-Can you tell us what **probably** happened and how you can avoid this problem again in the future?
 
 Have fun!
 
-## 3. Working with data
+## 2. Working with data
 
-You are working as a software architect for DMForever inc., a company that provides data-mining solutions to their clients.
+Write a data migration script to create the Database of the  neccesary model,  also create  the  Model Class for each of the table with the proper relationship.
 
-Their typical clients have their data stored in various "storage systems", like Google Docs, MySQL DBs, Oracle stuff or even log files.
-
-Your CTO comes and tells you that you guys have to rewrite the way you import the data from the clients' sources and export it to your "storage systems", and asks you to write the interfaces for such system, so that the programmers can implement the system.
-
-Please provide such interfaces -- you can use any programming language.
-
-## 4. Telecom APIs
+## 3. Telecom APIs
 
 This challenge should take you ~30 minutes of time (let's keep it simple) 
 and isn't related to any particular language, you can even implement it 
@@ -152,3 +138,4 @@ function getDogs(list $criteria, $dogRepository) {
 ```
 
 Feel free to use the design that **you** think is best! It might be that none of the examples are actually good ;-)
+Also Send only the relevant code base ...Dont include the framework
