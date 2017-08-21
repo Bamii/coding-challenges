@@ -1,13 +1,11 @@
 # Coding challenges
 
-At Namshi we are always looking for talents to join our
-crazy boat and contribute to the hottest Service-Oriented
-Architecture of the Middle East.
+At Payporte we are looking for developers to improve our team
 
 In this repository you will find some of the coding challenges
 we put candidates through: feel free to have a look and, if interested,
 share your solutions with us (you can send your fork or your gist at
-*work-in-tech@namshi.com*).
+*a.bamidele@payporte.com*).
 
 ## Challenges
 
