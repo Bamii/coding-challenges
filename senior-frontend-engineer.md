@@ -1,4 +1,4 @@
-# Senior Frontend Engineer
+# Frontend Developer Engineer 
 
 ## 1. Cartified!
 
@@ -10,6 +10,7 @@ Your task is to implement a basic shopping cart for a website, following these b
 * the cart should only know about item IDs and their quantity
 * you will write the cart by implementing the methods of the provided cart service in the code block below: please fork it and submit your implementation
 * it should take you less than 1 hour to come up with an implementation, but we won't put any time limit for this challenge
+* This is implemented with angular 1 . you can use Angular 1, Angular 2 , ReactJS, Vue or Vanilla Script
 
 ``` javascript
 angular.module('services.cart', [])
